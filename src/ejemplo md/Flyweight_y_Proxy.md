@@ -10,7 +10,7 @@ compartir, del estado extrínseco, que es particular de cada objeto.
 Imagina que estás creando un sistema de mapas digitales donde necesitas registrar ubicaciones diferentes (entre restaurantes, parques y supermercados). 
 Si abordaras esto de la forma tradicional, crearías un objeto pesado por cada punto en el mapa que contenga absolutamente todos sus datos de forma independiente
 
-## 2. Problema
+## 2. Diagrama general
 ![Estructura general de Flyweight](imgs/flyweight.png)
 
 ## 3. Problema
