@@ -1,0 +1,21 @@
+# Compiled Java files
+*.class
+bin/
+out/
+target/
+
+# IDE and build metadata
+.classpath
+.project
+.settings/
+.vscode/*.log
+.vscode/.generated/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
