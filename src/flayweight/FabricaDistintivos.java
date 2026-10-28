@@ -17,6 +17,8 @@ public class FabricaDistintivos {
         return distintivo;
     }
 
+    
+
     public static int cantidadDistintivos() {
         return cache.size();
     }
