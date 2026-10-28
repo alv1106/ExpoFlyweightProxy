@@ -14,6 +14,7 @@ Si abordaras esto de la forma tradicional, crearías un objeto pesado por cada p
 ![Estructura general de Flyweight](imgs/flyweight.png)
 
 ## 3. Problema
+
 El mapa puede contener miles de ubicaciones. Si cada una almacenara por separado los mismos datos de categoría, icono y color (como en el ejemplo anterior), se repetiría información masivamente y se consumirían recursos de forma innecesaria por cada objeto creado.
 Entonces por ejemplo a un usurio que tenga un dispositivo potente quizas podria usar el sistema con normaidad, pero igual etaria propenso a fallar o relentizarse.
 
@@ -21,6 +22,7 @@ Entonces por ejemplo a un usurio que tenga un dispositivo potente quizas podria 
 
 ## 4. Solucion
 ![Estructura de la solucion](imgs/solucionfly.png)
+
 `FabricaDistintivos` reutiliza los objetos `Distintivo` que ya existen
 para una misma combinación de categoría, icono y color. Cada `Ubicacion`
 almacena sus coordenadas y una referencia al distintivo compartido.
